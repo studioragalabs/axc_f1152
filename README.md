@@ -19,8 +19,6 @@ we’ll add the following steps:
 3. Build firmware: Compile the custom firmware and generate the binary file.
 4. Include firmware build in automation: Integrate the build process into the automated scripts.
 
-srrmk@mars:~/MyWorkspace/3rdparty/middleware/axc_f1152_setup$ tree
-.
 ├── README.md
 ├── config
 │   ├── dnp3_config.json
