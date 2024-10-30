@@ -18,32 +18,3 @@ we’ll add the following steps:
 2. Customize firmware code: Add necessary DNP3 and Modbus components.
 3. Build firmware: Compile the custom firmware and generate the binary file.
 4. Include firmware build in automation: Integrate the build process into the automated scripts.
-
-├── README.md
-├── config
-│   ├── dnp3_config.json
-│   ├── io_mapping.json
-│   └── modbus_map.json
-├── logs
-│   ├── dnp3_setup.log
-│   ├── firmware_build.log
-│   ├── firmware_flash.log
-│   ├── install.log
-│   ├── io_mapping.log
-│   ├── modbus_setup.log
-│   ├── network_config.log
-│   └── test_validation.log
-├── scripts
-│   ├── 01_install_dependencies.sh
-│   ├── 02_configure_network.sh
-│   ├── 03_setup_modbus.sh
-│   ├── 04_setup_dnp3.sh
-│   ├── 05_map_io.sh
-│   ├── 06_build_firmware.sh
-│   ├── 07_flash_firmware.sh
-│   └── 08_test_validation.sh
-└── sdk                              # Cloned SDK repository for AXC F 1152
-    ├── build                        # Directory where the firmware binary will be generated
-    │   └── axc_f1152_firmware.bin   
-    └── firmware                     # Firmware source code and build scripts
-        └── ../scripts/..
